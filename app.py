@@ -13,6 +13,15 @@ def book():
     return render_template("booking.html")
 
 
+@app.route("/report")
+def reports():
+    return render_template("logs.html")
+
+
+@app.route("/home")
+def home ():
+    return render_template("home.html")
+
 
 
 
